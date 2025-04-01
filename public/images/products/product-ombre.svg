@@ -1,0 +1,12 @@
+<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="ombre" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#121212;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#6b4c3e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#d4b26a;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#ombre)"/>
+  <text x="200" y="200" font-family="Arial" font-size="24" fill="#ffffff" text-anchor="middle" dominant-baseline="middle">X-Pression Ombre</text>
+  <text x="200" y="240" font-family="Arial" font-size="18" fill="#d4af37" text-anchor="middle" dominant-baseline="middle">Premium Braiding Hair</text>
+</svg>

@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply antialiased;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply px-6 py-3 font-medium rounded-none transition-all duration-300 inline-block;
+  }
+  
+  .btn-primary {
+    @apply bg-black text-white hover:bg-black-light;
+  }
+  
+  .btn-secondary {
+    @apply bg-gold text-black hover:bg-gold-dark;
+  }
+  
+  .section-title {
+    @apply text-3xl md:text-4xl lg:text-5xl font-serif font-bold mb-6;
+  }
+  
+  .section-subtitle {
+    @apply text-lg md:text-xl mb-8 max-w-3xl mx-auto;
+  }
+  
+  .container {
+    @apply px-4 md:px-8;
+  }
+}
